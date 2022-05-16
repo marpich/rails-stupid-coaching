@@ -1,0 +1,48 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body{
+  background-color: aquamarine;
+}
+
+.answer {
+  background-color: antiquewhite;
+}
+
+.answer p{
+  font-style: oblique;
+}
+
+.question p{
+  font-style: oblique;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+  background-color: darkgray;
+  border: 3px solid rgba(31, 93, 124, 0.41);
+  border-radius: 100%;
+  padding: 10px;
+}
+
+a:hover {
+  color: red;
+}
+
+form :first-child {
+  background-color: grey;
+  padding: 10px;
+  margin-right: 0px;
+}
+
+form :last-child {
+  background-color: blue;
+  padding: 10px;
+  margin-left: 0px;
+}
+
+form {
+  margin: 0px;
+}
